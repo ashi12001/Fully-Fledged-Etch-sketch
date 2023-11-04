@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Sedgwick+Ave+Display&display=swap');
+        #colour{
+            
+            margin-left:150px;
+            margin-bottom: 30px;
+        }
+        </style>
+</head>
+<body>
+    <H1 style="text-align:center;">ETCH SKETCH</H1>
+    <main>
+        <div class="controls">
+            <input  type="color" name="" id="colour">
+            <button id="color">Color</button>
+            <button id="rainbow">Rainbow</button>
+            <button id="Eraser">Eraser</button>
+            <button id="Reset">Reset</button>
+
+       
+            <div>
+                <output for="range" class="output"></output>
+                <input type="range" name="" id="range" min="1" max="6">
+                
+            </div>
+            
+        </div>
+        <div class="containers">
+
+        </div>
+      
+    </main>
+    <script src="./app.js" ></script>
+   
+</body>
+</html>
