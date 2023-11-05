@@ -120,6 +120,7 @@ function slider(){
   rainbowMode();
   eraser();
   color_mode();
+  clear();
   
   
   
