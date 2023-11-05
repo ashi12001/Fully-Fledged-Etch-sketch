@@ -14,7 +14,7 @@ const divv = document.querySelectorAll(".containers div");
 
 function hover() {
   divv.forEach((Button) => {
-    Button.addEventListener("mouseover", () => {
+    Button.addEventListener("mouseenter", () => {
       Button.style.backgroundColor = "black";
     });
   });
@@ -30,12 +30,13 @@ function color_mode() {
   const colorPicker= document.querySelector("#colour")
   colorSelect.addEventListener("click", () => {
     divv.forEach((Button) => {
-      Button.addEventListener("mouseover", () => {
+      Button.addEventListener("mouseenter", () => {
         Button.style.backgroundColor = `${colorPicker.value}`;
       });
     });
   });
 }
+
 color_mode();
 
 function clear() {
@@ -87,4 +88,7 @@ function output(){
     
 }
 output();
+
+
+
 
